@@ -1,0 +1,71 @@
+/* Public css begin */
+html, body, ul, li, ol, dl, dd, dt, b, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+.clear{clear:both;}
+a,img {border:none;}
+body {font-family: "Microsoft YaHei";width:100%;}
+/* bg css begin */
+.bg {background:url(../images/bg_01.png) no-repeat;height:522px;width:100%;width:1100px;margin:auto;position:relative;}
+.top_nav {background:url(../images/top_nav_03.png) no-repeat;height:87px;width:100%;position:absolute;left:271px;top:50px;}
+.nav {height:90px;margin-left:25px;}
+.nav li {float:left;color:#fff;width:120px;text-align:center;line-height:50px;}
+.nav li a {color:#fff;}
+.nav_2 li a {color:#fff;}
+#active {color:#fc6475;}
+#nav_width {width:110px;margin-left:10px;}
+#geren {width:100px;}
+.nav_2 {margin-left:30px;margin-top:-28px;}
+.nav_2 li {float:left;width:120px;text-align:center;color:#fff;font-size:12px;font-weight:bold;}
+.nuesuo_pic {position:absolute;top:356px;left:50px;}
+.nuesuo_a {position:absolute;top:30px;left:100px;}
+.nuesuo_b {position:absolute;top:50px;left:200px;}
+.top_txt {position:absolute;right:108px;top:195px;color:#fc6475;font-size:30px;font-family:"楷体";}
+.son {color:#fff;font-size:12px;margin-left:80px;margin-top:5px;}
+.phone {background:url(../images/phone_03.png) no-repeat;height:137px;width:250px;position:absolute;right:50px;bottom:22px;}
+.phone_1 {margin-left:92px;color:#7f716d;font-size:14px;font-weight:bold;margin-top:45px;}
+.phone_number {margin-left:92px;color:#7f716d;font-size:12px;font-weight:bold;}
+.tishiyu {margin-left:92px;color:#7f716d;font-size:12px;margin-top:10px;}
+.tishi_color {color:#fc6475;font-weight:bold;font-size:14px;}
+/* bg css end */
+
+/* 个人 物语 css begin */
+.neirong {width:1100px;margin:auto;margin-top:43px;}
+.wuyu {margin-left:50px;}
+.wuyu_bg {background:url(../images/news_03.png) no-repeat;width:265px;height:36px;font-size:16px;font-weight:bold;color:#85766f;float:left;}
+.wuyu_sub_nav {margin-top:20px;margin-left:20px;font-size:12px;}
+.wuyu_sub_nav li {height:25px;width:265px;overflow:hidden;line-height:25px;}
+.more {height:16px;width:56px;border-radius:5px;background:#a9a2a3;font-size:12px;text-align:center;float:right;box-shadow:3px 3px 10px black;}
+.more a {color:#fff;}
+/* 个人 物语 css end */
+
+/* 心情随笔 css begin */
+.xinq {background:url(../images/news_2_03.png) no-repeat;height:155px;width:448px;float:left;margin-left:20px;position:relative;margin-left:25px;}
+.suibi_pic {margin:10px 20px;}
+.xinqing_txt {position:absolute;top:15px;left:160px;}
+
+.tou {font-size:16px;width:80px;color:#fc6475;}
+.tou_txt {font-size:12px;width:130px;height:auto;font-size:11px;margin-left:10px;}
+.one_more {float:right;background:#fc6475;box-shadow:3px 3px 10px black;border-radius:5px;font-size:12px;height:16px;width:56px;text-align:center;	}
+.first_txt_a {float:left;}
+.mo {width:40px;color:#fc6475;position:absolute;left:160px;top:10px;}
+.mo_a {width:40px;color:#fc6475;position:absolute;left:215px;top:10px;}
+/* 心情随笔 css end*/
+
+/* photos css begin */
+.photos {float:left;margin-left:30px;}
+.photos_top {color:#7b6d69;float:left;margin-top:10px;}
+.photos_xie {background:url(../images/xiexian_03.png) no-repeat;height:54px;width:57px;float:left;}
+.photos_zhanshi li {width:125px;height:72px;border:2px solid #d0c0ae;border-radius:5px;float:left;margin:0px 5px;}
+.photos_zhanshi li img {width:125px;height:72px;}
+.mo_mo a {width:50px;color:#fff;font-size:12px;font-weight:bold;background:#fc6475;height:16px;box-shadow:3px 3px 10px black;border-radius:5px;float:right;margin-top:10px;margin-right:10px;display:block;text-align:center;}
+/* photos css end */
+
+/* footer css begin */
+footer {width:100%;background:#f3efeb;padding:50px 0px;margin-top:105px;float:left;}
+.foorer_auto {width:577px;margin:auto;position:relative;}
+.foorer_auto>p {width:100px;text-align:center;font-size:16px;font-weight:bold;color:#fc6475;float:left;}
+.foorer_auto span {float:left;font-size:12px;display:block;width:300px;color:#aba0a2;margin-left:20px;}
+form {position:absolute;top:5px;right:-20px;}
+form option {float:left;}
+/* footer css end */
